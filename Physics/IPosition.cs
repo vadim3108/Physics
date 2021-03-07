@@ -1,6 +1,6 @@
 ﻿namespace Physics
 {
-    public interface IPosition
+    public class Position
     {
         Vector ReferencePoint { get; set; }
         Vector PositionFromReference { get; set; }
